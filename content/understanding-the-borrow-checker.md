@@ -1,7 +1,7 @@
 +++
 title = "Understanding the borrow checker"
 description = "Understanding the Rust's borrow checker."
-date = 2023-02-21
+date = 2023-03-21
 tags = ["rust"]
 +++
 
