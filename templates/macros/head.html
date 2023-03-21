@@ -23,4 +23,12 @@
     <link rel="stylesheet" href="{{ get_url(path="font-hack-subset.css", trailing_slash=false) | safe }}">
 {% endif -%}
 
+  <script>
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      for(let registration of registrations) {
+          registration.unregister();
+      } 
+    });
+  </script>
+
 {% endmacro head %}
