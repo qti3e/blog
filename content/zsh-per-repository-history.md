@@ -19,6 +19,8 @@ And I feel no regret in making this decision; now, every time I switch between p
 see the last steps I had taken, and have an idea of what I was doing.
 
 
+I added the following script to my `~/.zshrc` file:
+
 ```sh
 
 function _better_history_hook() {
