@@ -1,0 +1,38 @@
+body:not(.mermaid-fail) .mermaid:not([data-processed="true"]) {
+  display: block;
+  height: 80px;
+  font-size: 0;
+  text-align: center;
+
+  &:after {
+    content: " ";
+    display: inline-block;
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid var(--accent);
+    border-color: var(--accent) transparent var(--accent) transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+body.mermaid-fail .mermaid:not([data-processed="true"]) {
+  font-size: 0;
+  &:after {
+    font-size: 15px;
+    color: red;
+    content: "Sorry! But there was a problem rendering the diagram. Try reloading the page...";
+  }
+}
+
