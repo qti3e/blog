@@ -133,4 +133,4 @@ directory to do this. After using my terminal for a while, this is how my `.hist
 54 directories, 49 files
 ```
 
-If you like content like this don't forget to follow me on Twitter :)
+If you like content like this don't forget to follow me on [Twitter](https://twitter.com/ParsaIsBack) :)
