@@ -55,6 +55,9 @@ menu_items = [
     {name = "about me", url = "$BASE_URL/about"},
 
     # set newtab to true to make the link open in new tab
+    {name = "benchmarks", url = "https://fast.parsa.ooo/report/", newtab = true},
+
+    # set newtab to true to make the link open in new tab
     {name = "github", url = "https://github.com/qti3e", newtab = true},
 
     # set newtab to true to make the link open in new tab
